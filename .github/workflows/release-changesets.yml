@@ -40,7 +40,7 @@ jobs:
           node-version: 18.x
 
       - name: Install pnpm
-        uses: pnpm/action-setup@c3b53f6a16e57305370b4ae5a540c2077a1d50dd # v2.2.4
+        uses: pnpm/action-setup@a7487c7e89a18df4991f7f222e4898a00d66ddda # v4.1.0
 
       - name: Install Dependencies
         run: pnpm install --config.platform=linux --config.architecture=x64
